@@ -1,0 +1,93 @@
+/* Game Home */
+.spaceIntroCont {
+    background-image: linear-gradient( #000000, #2d2053);
+    height: 100vh;
+}
+.spaceQuestionCont {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+}
+.spaceCockpitCont {
+    position: absolute;
+    z-index: 3;
+}
+.spaceShip {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GameQuestion Component */
+.spaceQuestionBox {
+    min-height: 20em;
+    margin-top: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spaceBoxQuestion {
+    padding: 2em;
+    color: rgba(0, 255, 255, 1);
+}
+.spaceBoxBtns {
+    width: 20em;
+    margin-left: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.spaceBoxBtns button {
+    background: rgba(0, 255, 255, .8);
+    border: none;
+    border-radius: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #170e30;
+    padding: 20px 60px;
+    margin: .2em 0;
+    outline: none;
+}
+.spaceBoxBtns button:hover {
+    background: rgba(0, 255, 255, 1);
+}
+.spaceBoxBtns button:active {
+    background: rgba(0, 255, 255, .6);
+}
+
+/* Cockpit Component */
+.spaceHeader {
+    background: red;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+    display: flex;
+    justify-content: space-between;
+}
+.spaceHeaderCaptain {
+    background: blue;
+}
+.spaceHeaderTimer {
+    background: blue;
+}
+.spaceHeaderScore {
+    background: blue;
+}
+.spaceCockpit {
+    content:url(https://yellingyak.com/wp-content/uploads/2019/07/game_cockpit.png);
+    width: 100%;
+    height: 100vh;
+}
+
+/* Background Component */
+.spaceDirt {
+    content:url(https://yellingyak.com/wp-content/uploads/2019/07/game_dirt_bg.png);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
